@@ -23,6 +23,13 @@
         <service android:name=".service.BookService"
             android:enabled="true"
             android:exported="true"/>
+        <service android:name=".service.ObtainBitmapService"
+            android:enabled="true"
+            android:exported="true"/>
+        <service android:name=".service.StudentService"
+            android:enabled="true"
+            android:exported="true"/>
+
     </application>
 
 </manifest>

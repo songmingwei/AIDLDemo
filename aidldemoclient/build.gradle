@@ -20,6 +20,13 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    /*sourceSets {
+        main {
+            java.srcDirs = ['src/main/java', 'src/main/aidl']
+            *//*这一行的意思是指定源文件的路径，把aidl包含进去了。*//*
+        }
+    }*/
 }
 
 dependencies {
